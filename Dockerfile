@@ -1,6 +1,6 @@
 FROM mysql:5.7
 
-#设置免密登录
+#设置root账户密码为root
 ENV MYSQL_ROOT_PASSWORD root
 
 #将所需文件放到容器中

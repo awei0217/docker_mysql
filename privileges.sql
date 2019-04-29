@@ -1,5 +1,7 @@
 --mysql5.7 使用注意
 
+--使用mysql库
+use mysql;
 -- 设置host为%，所有
 update user set host = '%' where user = 'root';
 -- 这一条命令一定要有：
